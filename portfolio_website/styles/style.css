@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Gravitas+One|Roboto+Flex');
+
 :root{
     --heading-font: "Gravitas One";
     --paragraph-font: "Roboto flex", Helvetica, sans-serif;
