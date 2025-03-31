@@ -92,6 +92,42 @@ h2 {
     border-radius: 5px;
 }
 
+/* Gallery Style for Graphic Design Sub Page */
+.gallery-graphic-design-wrapper {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.graphic-design-heading {
+    margin-bottom: 20px;
+    font-size: 2.5em; 
+}
+
+.gallery-graphic-design {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: fit-content;
+    margin: 0 auto; 
+    justify-items: center; 
+}
+
+.gallery-graphic-design img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+/* End of Gallery Style for Graphic Design Sub Page*/
+
+
+
 footer {
     background-color: #5A6232;
     color: white;
